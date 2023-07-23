@@ -14,18 +14,18 @@
                             <h4 class="card-title mb-0 exp">
                                 <i class="fas fa-building mr-2"></i>
                                 <a data-parent="#exp-accordion" data-toggle="collapse" class="card-toggle collapsed"
-                                    href="#experience5" aria-expanded="false">
-                                    <i class="fas fa-chevron-up"></i>
+                                    href="#experience6" aria-expanded="false">
+                                    <i class="fas fa-chevron-down"></i>
                                     SCHLESINGER GROUP (<i>Software Engineer </i>)
                                 </a>
                                 <span>June 2021 - Present</span>
                             </h4>
                         </div>
 
-                        <div class="card-collapse collapse show" id="experience5">
+                        <div class="card-collapse collapse" id="experience6">
                             <div class="card-body p-4 bg-white">
                                 <ul>
-                                    <li>Lead and mentored junior team members, providing guidance and assistance
+                                  <li>Lead and mentored junior team members, providing guidance and assistance
 with their tasks.
                                     </li>
                                     <li>Managing the deployment process on the Azure DevOps platform.
@@ -44,7 +44,7 @@ with their tasks.
                                 <a data-parent="#exp-accordion" data-toggle="collapse" class="card-toggle collapsed"
                                     href="#experience4" aria-expanded="false">
                                     <i class="fas fa-chevron-down"></i>
-                                    SYNAPSE INDIA (<i> Software Engineer</i>)
+                                    SYNAPSE INDIA (<i>Software Engineer </i>)
                                 </a>
                                 <span>October 2019 - May 2021</span>
                             </h4>

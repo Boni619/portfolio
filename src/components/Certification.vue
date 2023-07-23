@@ -10,8 +10,8 @@
                     <div class="col-lg-4 col-md-6 col-sm-12 element-item globant">
                         <div class="our-project">
                             <div class="img">
-                                <a class="test-popup-link" @click="show('src/assets/img/certificates/javascript1.png')">
-                                    <img src="@/assets/img/certificates/javascript1.png" alt="certificates-4" class="img-fluid" v-scrollanimation>
+                                <a class="test-popup-link" @click="show(javascript1)">
+                                    <img :src="javascript1" alt="certificates-4" class="img-fluid" v-scrollanimation>
                                 </a>
                             </div>
                             <div class="title py-4">
@@ -23,8 +23,8 @@
                     <div class="col-lg-4 col-md-6 col-sm-12 element-item globant">
                         <div class="our-project">
                             <div class="img">
-                                <a class="test-popup-link" @click="show('src/assets/img/certificates/javascript2.png')">
-                                    <img src="@/assets/img/certificates/javascript2.png" alt="certificates-2" class="img-fluid" v-scrollanimation>
+                                <a class="test-popup-link" @click="show(javascript2)">
+                                    <img :src="javascript2" alt="certificates-2" class="img-fluid" v-scrollanimation>
                                 </a>
                             </div>
                             <div class="title py-4">
@@ -36,8 +36,8 @@
                     <div class="col-lg-4 col-md-6 col-sm-12 element-item globant">
                         <div class="our-project">
                             <div class="img">
-                                <a class="test-popup-link" @click="show('src/assets/img/certificates/freecodecamp.jpg')">
-                                    <img src="@/assets/img/certificates/freecodecamp.jpg" alt="certificates-2" class="img-fluid" v-scrollanimation>
+                                <a class="test-popup-link" @click="show(freecodecamp)">
+                                    <img :src="freecodecamp" alt="certificates-2" class="img-fluid" v-scrollanimation>
                                 </a>
                             </div>
                             <div class="title py-4">
@@ -49,8 +49,8 @@
                     <div class="col-lg-4 col-md-6 col-sm-12 element-item globant">
                         <div class="our-project">
                             <div class="img">
-                                <a class="test-popup-link" @click="show('src/assets/img/certificates/html.jpg')">
-                                    <img src="@/assets/img/certificates/html.jpg" alt="certificates-2" class="img-fluid" v-scrollanimation>
+                                <a class="test-popup-link" @click="show(html)">
+                                    <img :src="html" alt="certificates-2" class="img-fluid" v-scrollanimation>
                                 </a>
                             </div>
                             <div class="title py-4">
@@ -76,8 +76,20 @@
 }
 </style>
 <script>
+import freecodecamp from '@/assets/img/certificates/freecodecamp.jpg'
+import javascript1 from '@/assets/img/certificates/javascript1.png'
+import javascript2 from '@/assets/img/certificates/javascript2.png'
+import html from '@/assets/img/certificates/html.jpg'
 export default {
   name: 'MyCertification',
+  data(){
+    return {
+      freecodecamp : freecodecamp,
+      javascript1 : javascript1,
+      javascript2 : javascript2,
+      html : html,
+    }
+  },
   methods:{
     show(img) {
       console.log(img)
