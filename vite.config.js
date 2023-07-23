@@ -3,11 +3,16 @@ import vue from '@vitejs/plugin-vue'
 import { fileURLToPath, URL } from 'node:url'
 import Markdown from 'vite-plugin-vue-markdown'
 import path from 'node:path'
+import Pages from 'vite-plugin-pages'
+import generateSitemap from 'vite-plugin-pages-sitemap'
 
 export default defineConfig({
   plugins: [
     vue({
       include: [/\.vue$/, /\.md$/],
+    }),
+    Pages({
+      onRoutesGenerated: routes => (generateSitemap({ routes })),
     }),
     Markdown(),
   ],
