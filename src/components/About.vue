@@ -39,9 +39,6 @@
       }
     }">⭐️ Committed to delivering in both backend and full stack development.</p>
     <p><github-button href="https://github.com/boni619">Follow @boni619</github-button></p>
-                        <p>
-                          <a href="https://www.buymeacoffee.com/boni6196" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/default-orange.png" alt="Buy Me A Coffee" height="41" width="174"></a>
-                        </p>
                         <hr>
                         <div class="social">
                             <a target="_blank" rel="noreferrer" href="https://github.com/Boni619" class="social-link"><i

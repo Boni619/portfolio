@@ -87,3 +87,7 @@ button:active button:hover .btn:active,
     z-index: 999;
     transition: background 1s ease;
 }
+
+#bmc-wbtn {
+  bottom: 89px !important;
+}
