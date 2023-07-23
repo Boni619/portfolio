@@ -1,62 +1,85 @@
 <template>
-  <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="skills">
-        <div class="my-auto">
-          <h2 class="mb-5">Skills</h2>
+     <section id="skills">
+            <div class="container">
+                <div class="col-lg-12 text-center services-title">
+                    <h3 class="text-uppercase title-text" style="font-size: 35px;">Production Level Skills</h3>
+                </div>
+                <div class="integration-list row justify-content-center py-5">
+                    <div class="item col-4 col-md-3 col-lg-2 mb-3 mb-lg-5 bottom-line-lg">
+                        <img class="shadow rounded-circle"  src="@/assets/img/skills/javascript.svg" alt="javascript">
+                        <p class="skill-label">JavaScript</p>
+                    </div>
+                    <div class="item col-4 col-md-3 col-lg-2 mb-3 mb-lg-5 bottom-line-lg">
+                        <img class="shadow rounded-circle"  src="@/assets/img/skills/php.svg" alt="php">
+                        <p class="skill-label">PHP</p>
+                    </div>
+                    <div class="item col-4 col-md-3 col-lg-2 mb-3 mb-lg-5 bottom-line-lg">
+                        <img class="shadow rounded-circle"  src="@/assets/img/skills/laravel.svg" alt="vuejs">
+                        <p class="skill-label">Laravel</p>
+                    </div>
+                    <div class="item col-4 col-md-3 col-lg-2 mb-3 mb-lg-5 bottom-line-lg">
+                        <img class="shadow rounded-circle"  src="@/assets/img/skills/vuejs.svg" alt="vuejs">
+                        <p class="skill-label">VueJS</p>
+                    </div>
+                    <div class="item col-4 col-md-3 col-lg-2 mb-3 mb-lg-5 top-line-lg">
+                        <img class="shadow rounded-circle"  src="@/assets/img/skills/nodejs.svg" alt="nodejs">
+                        <p class="skill-label">NodeJS</p>
+                    </div>
+                    <div class="item col-4 col-md-3 col-lg-2 mb-3 mb-lg-5">
+                        <img class="shadow rounded-circle"  src="@/assets/img/skills/html.svg" alt="html">
+                        <p class="skill-label">HTML5</p>
+                    </div>
+                    <div class="item col-4 col-md-3 col-lg-2 mb-3 mb-lg-5 top-line-lg">
+                        <img class="shadow rounded-circle"  src="@/assets/img/skills/css.svg" alt="css">
+                        <p class="skill-label">CSS3</p>
+                    </div>
+                    <div class="item col-4 col-md-3 col-lg-2 mb-3 mb-lg-5">
+                        <img class="shadow rounded-circle"  src="@/assets/img/skills/bootstrap.svg" alt="bootstrap">
+                        <p class="skill-label">Bootstrap</p>
+                    </div>
+                    <div class="item col-4 col-md-3 col-lg-2 mb-3 mb-lg-5">
+                        <img class="shadow rounded-circle"  src="@/assets/img/skills/mysql.svg" alt="mysql">
+                        <p class="skill-label">MySQL</p>
+                    </div>
+                    <div class="item col-4 col-md-3 col-lg-2 mb-3 mb-lg-5">
+                        <img class="shadow rounded-circle"  src="@/assets/img/skills/docker.svg" alt="docker">
+                        <p class="skill-label">Docker</p>
+                    </div>
+                    <div class="item col-4 col-md-3 col-lg-2 mb-3 mb-lg-5">
+                        <img class="shadow rounded-circle"  src="@/assets/img/skills/aws.svg" alt="docker">
+                        <p class="skill-label">Aws</p>
+                    </div>
+                    <div class="item col-4 col-md-3 col-lg-2 mb-3 mb-lg-5">
+                        <img class="shadow rounded-circle"  src="@/assets/img/skills/azure.svg" alt="docker">
+                        <p class="skill-label">Azure Devops</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--  ======================== End Production Skill Area ==============================  -->
 
-          <div class="subheading mb-3">Programming Languages &amp; Tools</div>
-          <ul class="list-inline list-icons">
-            <li class="list-inline-item">
-              <i class="devicons devicons-html5"></i>
-            </li>
-            <li class="list-inline-item">
-              <i class="devicons devicons-css3"></i>
-            </li>
-            <li class="list-inline-item">
-              <i class="devicons devicons-javascript"></i>
-            </li>
-            <li class="list-inline-item">
-              <i class="devicons devicons-jquery"></i>
-            </li>
-            <li class="list-inline-item">
-              <i class="devicons devicons-sass"></i>
-            </li>
-            <li class="list-inline-item">
-              <i class="devicons devicons-less"></i>
-            </li>
-            <li class="list-inline-item">
-              <i class="devicons devicons-bootstrap"></i>
-            </li>
-            <li class="list-inline-item">
-              <i class="devicons devicons-wordpress"></i>
-            </li>
-            <li class="list-inline-item">
-              <i class="devicons devicons-grunt"></i>
-            </li>
-            <li class="list-inline-item">
-              <i class="devicons devicons-gulp"></i>
-            </li>
-            <li class="list-inline-item">
-              <i class="devicons devicons-npm"></i>
-            </li>
-          </ul>
-
-          <div class="subheading mb-3">Workflow</div>
-          <ul class="fa-ul mb-0">
-            <li>
-              <i class="fa-li fa fa-check"></i>
-              Mobile-First, Responsive Design</li>
-            <li>
-              <i class="fa-li fa fa-check"></i>
-              Cross Browser Testing &amp; Debugging</li>
-            <li>
-              <i class="fa-li fa fa-check"></i>
-              Cross Functional Teams</li>
-            <li>
-              <i class="fa-li fa fa-check"></i>
-              Agile Development &amp; Scrum</li>
-          </ul>
-        </div>
-      </section>
+        <!--  ========================Start Other Skill Area ==============================  -->
+        <section id="skills">
+            <div class="container">
+                <div class="col-lg-12 text-center services-title">
+                    <h3 class="text-uppercase title-text" style="font-size: 35px;">Other Relevant Skills</h3>
+                </div>
+                <div class="integration-list row justify-content-center py-5">
+                    <div class="item col-4 col-md-3 col-lg-2 mb-3 mb-lg-5">
+                        <img class="shadow rounded-circle"  src="@/assets/img/skills/agile.svg" alt="agile">
+                        <p class="skill-label">AGILE</p>
+                    </div>
+                    <div class="item col-4 col-md-3 col-lg-2 mb-3 mb-lg-5">
+                        <img class="shadow rounded-circle"  src="@/assets/img/skills/python.svg" alt="android">
+                        <p class="skill-label">Python</p>
+                    </div>
+                    <div class="item col-4 col-md-3 col-lg-2 mb-3 mb-lg-5">
+                        <img class="shadow rounded-circle"  src="@/assets/img/skills/wordpress.svg" alt="wordpress">
+                        <p class="skill-label">Wordpress</p>
+                    </div>
+                </div>
+            </div>
+        </section>
 </template>
 
 <script>

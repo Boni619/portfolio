@@ -1,59 +1,102 @@
 <template>
-<section class="resume-section p-3 p-lg-5 d-flex flex-column" id="experience">
-        <div class="my-auto">
-          <h2 class="mb-5">Experience</h2>
+  <section class="faq-section py-5" id="experience">
+            <div class="container single-col-max">
+                <div class="row text-center">
+                    <div class="col-12">
+                        <div class="about-title">
+                            <h3 class="text-uppercase title-text" style="font-size: 35px;">Experience</h3>
+                        </div>
+                    </div>
+                </div>
+                <div id="exp-accordion" class="faq-accordion mx-auto">
+                    <div class="card border-0 mb-4 shadow-sm">
+                        <div class="card-header border-0 p-4 theme-bg-light">
+                            <h4 class="card-title mb-0 exp">
+                                <i class="fas fa-building mr-2"></i>
+                                <a data-parent="#exp-accordion" data-toggle="collapse" class="card-toggle collapsed"
+                                    href="#experience5" aria-expanded="false">
+                                    <i class="fas fa-chevron-up"></i>
+                                    SCHLESINGER GROUP (<i>Software Engineer </i>)
+                                </a>
+                                <span>June 2021 - Present</span>
+                            </h4>
+                        </div>
 
-          <div class="resume-item d-flex flex-column flex-md-row mb-5">
-            <div class="resume-content mr-auto">
-              <h3 class="mb-0">Software Engineer</h3>
-              <div class="subheading mb-3">Intelitec Solutions</div>
-              <p>Bring to the table win-win survival strategies to ensure proactive domination. At the end of the day, going forward, a new normal that has evolved from generation X is on the runway heading towards a streamlined cloud solution. User generated content in real-time will have multiple touchpoints for offshoring.</p>
-            </div>
-            <div class="resume-date text-md-right">
-              <span class="text-primary">March 2013 - Present</span>
-            </div>
-          </div>
+                        <div class="card-collapse collapse show" id="experience5">
+                            <div class="card-body p-4 bg-white">
+                                <ul>
+                                    <li>Lead and mentored junior team members, providing guidance and assistance
+with their tasks.
+                                    </li>
+                                    <li>Managing the deployment process on the Azure DevOps platform.
+                                    </li>
+                                    <li>
+                                      Consistently achieved on-time delivery of tasks and projects.
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card border-0 mb-4 shadow-sm">
+                        <div class="card-header border-0 p-4 theme-bg-light">
+                            <h4 class="card-title mb-0 exp">
+                                <i class="fas fa-building mr-2"></i>
+                                <a data-parent="#exp-accordion" data-toggle="collapse" class="card-toggle collapsed"
+                                    href="#experience4" aria-expanded="false">
+                                    <i class="fas fa-chevron-down"></i>
+                                    SYNAPSE INDIA (<i> Software Engineer</i>)
+                                </a>
+                                <span>October 2019 - May 2021</span>
+                            </h4>
+                        </div>
 
-          <div class="resume-item d-flex flex-column flex-md-row mb-5">
-            <div class="resume-content mr-auto">
-              <h3 class="mb-0">Web Developer</h3>
-              <div class="subheading mb-3">Intelitec Solutions</div>
-              <p>Capitalize on low hanging fruit to identify a ballpark value added activity to beta test. Override the digital divide with additional clickthroughs from DevOps. Nanotechnology immersion along the information highway will close the loop on focusing solely on the bottom line.</p>
-            </div>
-            <div class="resume-date text-md-right">
-              <span class="text-primary">December 2011 - March 2013</span>
-            </div>
-          </div>
+                        <div class="card-collapse collapse" id="experience4">
+                            <div class="card-body p-4 bg-white">
 
-          <div class="resume-item d-flex flex-column flex-md-row mb-5">
-            <div class="resume-content mr-auto">
-              <h3 class="mb-0">Junior Web Designer</h3>
-              <div class="subheading mb-3">Shout! Media Productions</div>
-              <p>Podcasting operational change management inside of workflows to establish a framework. Taking seamless key performance indicators offline to maximise the long tail. Keeping your eye on the ball while performing a deep dive on the start-up mentality to derive convergence on cross-platform integration.</p>
-            </div>
-            <div class="resume-date text-md-right">
-              <span class="text-primary">July 2010 - December 2011</span>
-            </div>
-          </div>
+                                <ul>
+                                    <li>Managed multiple projects simultaneously, ensuring efficient execution and
+timely completion.
+                                    </li>
+                                    <li>
+                                      Effectively communicated with clients to understand their requirements and
+provided suggestions to enhance the product.
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card border-0 mb-4 shadow-sm">
+                        <div class="card-header border-0 p-4 theme-bg-light">
+                            <h4 class="card-title mb-0 exp">
+                                <i class="fas fa-building mr-2"></i>
+                                <a data-parent="#exp-accordion" data-toggle="collapse" class="card-toggle collapsed"
+                                    href="#experience1" aria-expanded="false">
+                                    <i class="fas fa-chevron-down"></i>
+                                    WEB VIEW SOLUTIONS (<i>PHP Developer</i>)
+                                </a>
+                                <span>June 2017 - September 2019</span>
+                            </h4>
+                        </div>
 
-          <div class="resume-item d-flex flex-column flex-md-row">
-            <div class="resume-content mr-auto">
-              <h3 class="mb-0">Web Design Intern</h3>
-              <div class="subheading mb-3">Shout! Media Productions</div>
-              <p>Collaboratively administrate empowered markets via plug-and-play networks. Dynamically procrastinate B2C users after installed base benefits. Dramatically visualize customer directed convergence without revolutionary ROI.</p>
+                        <div class="card-collapse collapse" id="experience1">
+                            <div class="card-body p-4 bg-white">
+                                <ul>
+                                    <li>Developed a Round Robin Algorithm.
+                                    </li>
+                                    <li>
+                                      Contributed to various small tasks within the project.
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="resume-date text-md-right">
-              <span class="text-primary">September 2008 - June 2010</span>
-            </div>
-          </div>
-
-        </div>
-
-      </section>
+        </section>
 </template>
 
 <script>
 export default {
-  name: 'Experience'
+  name: 'MyExperience'
 }
 </script>

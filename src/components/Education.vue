@@ -1,33 +1,43 @@
 <template>
-  <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="education">
-        <div class="my-auto">
-          <h2 class="mb-5">Education</h2>
+   <section class="faq-section py-5" id="education">
+            <div class="container single-col-max">
+                <div class="row text-center">
+                    <div class="col-12">
+                        <div class="about-title">
+                            <h3 class="text-uppercase title-text" style="font-size: 35px;">Education</h3>
+                        </div>
+                    </div>
+                </div>
+                <div id="faq-accordion" class="faq-accordion mx-auto">
+                    <div class="card border-0 mb-4 shadow-sm">
+                        <div class="card-header border-0 p-4 theme-bg-light" >
+                            <h4 class="card-title mb-0 exp">
+                                <i class="fas fa-school mr-2"></i>
+                                <a data-parent="#faq-accordion" data-toggle="collapse" class="card-toggle collapsed"
+                                    href="#education2" aria-expanded="false">
+                                    MCA (Master of Computer Application) (LOVELY PROFESSIONAL
+UNIVERSITY) </a>
+                                <span>2022</span>
+                            </h4>
+                        </div>
+                    </div>
 
-          <div class="resume-item d-flex flex-column flex-md-row mb-5">
-            <div class="resume-content mr-auto">
-              <h3 class="mb-0">University of Colorado Boulder</h3>
-              <div class="subheading mb-3">Bachelor of Science</div>
-              <div>Computer Science - Web Development Track</div>
-              <p>GPA: 3.23</p>
-            </div>
-            <div class="resume-date text-md-right">
-              <span class="text-primary">August 2006 - May 2010</span>
-            </div>
-          </div>
+                    <div class="card border-0 mb-4 shadow-sm">
+                        <div class="card-header border-0 p-4 theme-bg-light" >
+                            <h4 class="card-title mb-0 exp">
+                                <i class="fas fa-school mr-2"></i>
+                                <a data-parent="#faq-accordion" data-toggle="collapse" class="card-toggle collapsed"
+                                    href="#education2" aria-expanded="false">
+                                    BCA (Bachelor's in Computer Application) (<i>GUWAHATI UNIVERSITY</i>)
+                                    </a>
+                                <span>2016</span>
+                            </h4>
+                        </div>
+                    </div>
 
-          <div class="resume-item d-flex flex-column flex-md-row">
-            <div class="resume-content mr-auto">
-              <h3 class="mb-0">James Buchanan High School</h3>
-              <div class="subheading mb-3">Technology Magnet Program</div>
-              <p>GPA: 3.56</p>
+                </div>
             </div>
-            <div class="resume-date text-md-right">
-              <span class="text-primary">August 2002 - May 2006</span>
-            </div>
-          </div>
-
-        </div>
-      </section>
+        </section>
 </template>
 <style scoped>
    .mr-auto {
@@ -36,6 +46,6 @@
 </style>
 <script>
 export default {
-  name: 'Experience'
+  name: 'MyExperience'
 }
 </script>
