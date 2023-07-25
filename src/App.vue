@@ -7,10 +7,7 @@
   <button @click="scrollToTop" id="scroll-btn" title="Go to top"><i class="fas fa-arrow-up"></i></button>
 </template>
 <style scoped>
- @import './assets/css/global.css';
- @import './assets//css/responsive.css';
  @import './assets/css/style.css';
- @import './assets/css/variables.css';
 </style>
 <script>
 import NavBar from './components/NavBar.vue'

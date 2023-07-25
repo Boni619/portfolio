@@ -11,6 +11,29 @@
   background: yellow;
 }
 
+html,
+body {
+    margin: 0%;
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+    scroll-behavior: smooth;
+}
+
+/* CSS Variables */
+:root {
+    --primary-color: #4458dc;
+    --primary-color2: #854fee;
+    --title-color: #141313;
+    --text-color: #353535;
+    --border-color: #201f1f17;
+    --gradient-color: linear-gradient(90deg, #4458dc 0%, #854fee 100%);
+    --shadow-color: 0px 10px 30px rgba(118, 85, 225, 0.3);
+    --box-shadow: 0px 10px 30px rgba(57, 56, 61, 0.205);
+    /* font family variables. */
+    --roboto: 'Kodchasan', sans-serif;;
+}
+
 mark {
   color: black;
   background-color: yellow;
@@ -676,4 +699,184 @@ input:checked+.slider:before {
 
 .dark #subheading {
   color: #f4e964;
+}
+
+/* if the viewport is equal to 340px or less than that */
+@media only screen and (max-width: 340px) {
+
+  .header_area .main-menu .navbar,
+  .header_area .main-menu .navbar .navbar-brand,
+  .site-main .subscribe-us-area .subscribe .subscribe-title,
+  .site-main .subscribe-us-area .subscribe .subscribe-title p,
+  h4,
+  .site-main .services-area,
+  .site-main .subscribe-us-area .subscribe {
+      padding: 2%;
+      margin: 0%;
+  }
+
+  .site-main .site-banner .site-title h1 {
+      font-size: 41px;
+  }
+
+  .site-main .subscribe-us-area .subscribe form .input-textbox input {
+      width: 15rem !important;
+  }
+
+  .site-main>.services-area .services {
+      width: 13rem;
+  }
+
+}
+
+/* Global Classes */
+
+.title-text {
+  font: normal bold 45px/ 72px var(--roboto);
+}
+
+.text-uppercase {
+  text-transform: uppercase;
+}
+
+/* Buttons */
+
+.button {
+  font: normal 500 16px/20px var(--roboto);
+  position: relative;
+  border: 3px solid transparent;
+  border-radius: 4px;
+}
+
+.button.primary-button {
+  background: var(--gradient-color);
+  background-clip: padding-box;
+  color: whitesmoke;
+  transition: background .6s ease;
+  box-shadow: var(--box-shadow);
+}
+
+.button.primary-button:hover {
+  background: whitesmoke;
+  background-clip: padding-box;
+  color: black;
+}
+
+.button.primary-button::after,
+.button.secondary-button::after {
+  position: absolute;
+  top: -2px;
+  left: -2px;
+  bottom: -2px;
+  right: -2px;
+  background: var(--gradient-color);
+  content: ' ';
+  z-index: -1;
+  border-radius: 4px;
+}
+
+.button.secondary-button {
+  background: white;
+  background-clip: padding-box;
+  transition: background .6s ease;
+}
+
+.button.secondary-button:hover {
+  background: var(--gradient-color);
+  color: whitesmoke;
+  box-shadow: var(--box-shadow);
+}
+
+p.para {
+  color: var(--text-color);
+  font: normal 500 16px/ 25px var(--roboto);
+}
+
+.font-roboto {
+  font-family: var(--roboto);
+}
+
+button:focus,
+button:active button:hover .btn:active,
+.btn.active {
+  outline: 0px !important;
+  box-shadow: none !important;
+}
+
+.title-h1 {
+  font: normal bold 39px/ 40px var(--roboto);
+}
+
+.navbar_fixed {
+  position: fixed;
+  width: 100%;
+  top: -1px;
+  left: 0;
+  right: 0;
+  background: #ffffff;
+  box-shadow: var(--box-shadow);
+  z-index: 999;
+  transition: background 1s ease;
+}
+
+#bmc-wbtn {
+bottom: 89px !important;
+}
+
+/* if the viewport is equal to 340px or less than that */
+@media only screen and (max-width: 792px) {
+  .title-text {
+      font: normal bold 25px/ 72px var(--roboto)!important;
+  }
+  .site-main .site-banner .site-title h4 {
+      font-size: 1rem!important;
+    }
+  .site-main .about-area .about-title h2>span {
+      font-size: 31px;
+      letter-spacing: 10px;
+  }
+
+  .site-main .brand-area .experience-area .years-area {
+      padding-left: 1%;
+      width: 49%;
+  }
+
+  .site-main .brand-area .experience-area .bg-panel {
+      margin-left: 30%;
+      width: 80%;
+  }
+
+  .site-main .brand-area .experience-area .call-area {
+      padding-left: 3%;
+  }
+
+  .site-main .project-area .button-group button {
+      font: normal 500 18px/40px var(--roboto);
+  }
+
+  .site-main .about-area .about-title p {
+      padding: 0%;
+  }
+
+  .site-main .subscribe-us-area .subscribe form .input-textbox input {
+      width: 20rem;
+      margin: 5%;
+  }
+}
+
+/* if the viewport is equal to 1910px or less than that */
+@media only screen and (max-width: 1910px) {
+  .header_area .main-menu .navbar {
+      padding: 1rem !important;
+  }
+
+  .container {
+      max-width: 90%;
+  }
+
+  .site-main .brand-area,
+  .site-main .services-area .services-title,
+  .site-main .about-area {
+      padding: 3% 4%;
+  }
 }
