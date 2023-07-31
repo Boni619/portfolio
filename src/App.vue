@@ -6,7 +6,7 @@
   <Footer/>
   <button @click="scrollToTop" id="scroll-btn" title="Go to top"><i class="fas fa-arrow-up"></i></button>
 </template>
-<style scoped>
+<style>
  @import './assets/css/style.css';
 </style>
 <script>

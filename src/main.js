@@ -15,11 +15,6 @@ import "bootstrap"
 import '@fortawesome/fontawesome-free/css/all.css'
 import '@fortawesome/fontawesome-free/js/all.js'
 import 'viewerjs/dist/viewer.css'
-import './assets/css/global.css';
-import './assets/css/responsive.css';
-import './assets/css/style.css';
-import './assets/css/variables.css';
-
 
 const app = createApp(App)
 app.use(VueHighlightJS)

@@ -77,8 +77,8 @@
 </style>
 <script>
 import freecodecamp from '@/assets/img/certificates/freecodecamp.jpg'
-import javascript1 from '@/assets/img/certificates/javascript1.png'
-import javascript2 from '@/assets/img/certificates/javascript2.png'
+import javascript1 from '@/assets/img/certificates/javascript1.jpg'
+import javascript2 from '@/assets/img/certificates/javascript2.jpg'
 import html from '@/assets/img/certificates/html.jpg'
 export default {
   name: 'MyCertification',

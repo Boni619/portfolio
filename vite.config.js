@@ -5,6 +5,7 @@ import Markdown from 'vite-plugin-vue-markdown'
 import path from 'node:path'
 import Pages from 'vite-plugin-pages'
 import generateSitemap from 'vite-plugin-pages-sitemap'
+import { VitePWA } from 'vite-plugin-pwa'
 
 export default defineConfig({
   plugins: [
@@ -15,6 +16,9 @@ export default defineConfig({
       onRoutesGenerated: routes => (generateSitemap({ routes })),
     }),
     Markdown(),
+    VitePWA({
+      injectRegister: 'auto'
+    })
   ],
   resolve: {
     alias: {
