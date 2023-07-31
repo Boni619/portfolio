@@ -1,1 +1,0 @@
-import{o as e,c as s,d as o}from"./index-f6b4082d.js";const n={class:"markdown-body"},l=o("h1",null,"Club of Gargoyle",-1),r=o("h4",null,"July 22, 2023",-1),_=o("p",null,"Hello world",-1),c=[l,r,_],m={__name:"firstblog",setup(a,{expose:t}){return t({frontmatter:{}}),(i,u)=>(e(),s("div",n,c))}};export{m as default};

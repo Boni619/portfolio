@@ -1,1 +1,0 @@
-import{_ as s,e,o as c,c as r,f as o,g as a,a as _}from"./index-f6b4082d.js";const i={name:"BlogDescription"},l={class:"blog"};function p(u,d,m,f,g,B){const t=e("router-view"),n=e("router-link");return c(),r("div",l,[o(t),o(n,{to:{name:"Blog"},class:"back"},{default:a(()=>[_("« Back")]),_:1})])}const v=s(i,[["render",p]]);export{v as default};
