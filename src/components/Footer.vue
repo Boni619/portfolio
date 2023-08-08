@@ -3,7 +3,7 @@
         <div class="container">
             <div class="">
                 <div class="site-logo text-center py-4">
-                  <img src="@/assets/img/logo/logo.svg" style="width: 60px; object-fit: cover; border-radius: 50%;" alt="logo">
+                  <img src="@/assets/img/logo/logo.png" style="width: 44px; object-fit: cover; border-radius: 50%;" alt="logo">
                 </div>
                 <div class="text-center">
                     <h5 class="text-uppercase">Connect me on</h5>

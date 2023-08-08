@@ -3,7 +3,7 @@
         <div class="main-menu">
             <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="top-nav-fixed">
               <router-link :to="{name: 'Home' }" class="navbar-brand">
-                    <img src="@/assets/img/logo/logo.svg" style="width: 60px; object-fit: cover; border-radius: 50%;" alt="logo">
+                    <img src="@/assets/img/logo/logo.png" style="width: 44px; object-fit: cover; border-radius: 50%;" alt="logo">
                 </router-link>
                 <input class="toggle mobile-show" type="checkbox" v-model="toggle"  @click="toggleTheme">
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
