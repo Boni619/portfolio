@@ -30,6 +30,7 @@
     "sass-loader": "^13.3.2",
     "vite": "^4.4.5",
     "vite-plugin-pages": "^0.31.0",
+    "vite-plugin-pwa": "^0.16.4",
     "vite-plugin-vue-markdown": "^0.23.7"
   }
 }

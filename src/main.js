@@ -8,7 +8,7 @@ import AOS from 'aos'
 import Vue3Lottie from 'vue3-lottie'
 import ScrollAnimation from './directives/scrollAnimation'
 
-import 'highlight.js/styles/atom-one-dark.css'
+import 'highlight.js/styles/default.css';
 import "bootstrap/dist/css/bootstrap.min.css"
 import "devicon/devicon.min.css"
 import "bootstrap"

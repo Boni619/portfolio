@@ -92,7 +92,6 @@ export default {
   },
   methods:{
     show(img) {
-      console.log(img)
         this.$viewerApi({
           images: img.split(),
         })

@@ -17,7 +17,7 @@ Essentially, to accomplish both, I just have to figure out how Vue can interpret
 
 ### Vue-Markdown-Loader
 Literally the first thing I did after that realization was to google _"vue markdown loader"_. And [QingWei-Li](https://github.com/QingWei-Li)'s [vue-markdown-loader repo](https://github.com/QingWei-Li/vue-markdown-loader) comes back as the first result. The documentation is pretty straightforward, I added this code over at my `vue.config.js`:
-<pre v-highlightjs><code class="javascript">
+<pre><code>
 module.exports = {
   chainWebpack(config){
     config.module.rule('md')
