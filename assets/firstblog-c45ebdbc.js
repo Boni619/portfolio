@@ -1,0 +1,1 @@
+import{n as e,p as s,B as o}from"./@vue-ba56d1e4.js";const n={class:"markdown-body"},l=o("h1",null,"Club of Gargoyle",-1),r=o("h4",null,"July 22, 2023",-1),_=o("p",null,"Hello world",-1),a=[l,r,_],h={__name:"firstblog",setup(c,{expose:t}){return t({frontmatter:{}}),(i,p)=>(e(),s("div",n,a))}};export{h as default};

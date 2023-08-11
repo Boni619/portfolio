@@ -1,1 +1,0 @@
-import{h as i}from"./highlight.js-4926f2ed.js";function n(l){l.directive("highlightjs",function(h,e){for(var o=h.querySelectorAll("code"),t=0;t<o.length;t++){var r=o[t];typeof e.value=="string"&&(r.textContent=e.value),i.highlightBlock(r)}})}export{n as i};
