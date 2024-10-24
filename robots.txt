@@ -1,0 +1,6 @@
+User-agent: *
+Disallow: /admin/
+Disallow: /user-dashboard/
+Allow: /
+
+Sitemap: https://www.boni619.com/public/sitemap.xml
