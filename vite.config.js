@@ -12,38 +12,41 @@ export default defineConfig({
     }),
     Markdown(),
     VitePWA({
-      registerType: 'autoUpdate',
-      devOptions: {
-        enabled: true
-      },
+      mode: "development",
+      base: "/",
+      srcDir: "src",
+      filename: "sw.ts",
+      strategies: "injectManifest",
       manifest: {
         name: "Boni 💼",
         short_name: 'Boni-Portfolio',
         description: 'a webpage to showcase my experience, education, skill-set, projects, certificates, achievements and recommendations.',
         theme_color: '#ffffff',
+        start_url: "/",
+        display: "standalone",
         icons: [
           {
-            src: 'src/assets/img/icons/icon-72x72.png',
+            src: 'icon-72x72.png',
             sizes: '72x72',
             type: 'image/png'
           },
           {
-            src: 'src/assets/img/icons/icon-128x128.png',
+            src: 'icon-128x128.png',
             sizes: '128x128',
             type: 'image/png'
           },
           {
-            src: 'src/assets/img/icons/icon-144x144.png',
+            src: 'icon-144x144.png',
             sizes: '144x144',
             type: 'image/png'
           },
           {
-            src: 'src/assets/img/icons/icon-192x192.png',
+            src: 'icon-192x192.png',
             sizes: '192x192',
             type: 'image/png'
           },
           {
-            src: 'src/assets/img/icons/icon-512x512.png',
+            src: 'icon-512x512.png',
             sizes: '512x512',
             type: 'image/png'
           }
