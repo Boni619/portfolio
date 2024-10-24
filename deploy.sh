@@ -6,6 +6,7 @@ npm run build
 # navigate into the build output directory
 cp dist/index.html dist/404.html
 cd dist
+
 # if you are deploying to a custom domain
 echo 'www.boni619.com' > CNAME
 git init
